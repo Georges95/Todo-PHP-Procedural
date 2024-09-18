@@ -15,8 +15,18 @@
         <header>
             <div class="logo">Mon todo</div>
         </header>
-        <div class="content">CONTENT</div>
-        <footer>FOOTER</footer>
+        <div class="content">
+            <div class="todo-container">
+                <h1>Ma Todo</h1>
+                <div class="todo-form"></div>
+                <div class="todo-list"></div>
+            </div>
+        </div>
+        <footer>
+            <div>
+                <p>2011 / 2025 © Tous droits réservés</p>                
+            </div>
+        </footer>
     </div>
 </body>
 </html>
