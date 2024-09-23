@@ -1,7 +1,7 @@
 /* theme */
 :root {
     --font-family: 'Open Sans', sans-serif;
-    --primary: #8e44ad;
+    --primary: #e74c3c;
     --dark:#2c3e50;
     --background-light:#ecf0f1;
     --text-color: #444;
@@ -121,48 +121,3 @@ footer {
     align-items: center;
     }
 
-/* todo */
-.todo-container {
-    padding:1.5rem;
-    background-color: white;
-    border: var(--border);
-    border-radius: 3px;
-    min-width: 60rem;
-    min-height: 40rem;
-    box-shadow: var(--box-shadow);
-    }
-
-.todo-container h1 {
-    text-align: center;
-    }
-
-.todo-form {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    }
-       
-.todo-form input {
-   flex: 1;
-   margin-right: 0.5rem;
-   border: var(--border);
-   border-radius: 3px;
-   padding:10px 15px;
-  }
-
-.todo-item {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    padding:0.3rem 1.5rem;
-    }
-   
-todo-item:nth-child(odd) {
-    background-color: var(--background-light);
-    }
-
-.todo-name{
-    flex: 1;
-    margin-right: 0.5rem;
-    }

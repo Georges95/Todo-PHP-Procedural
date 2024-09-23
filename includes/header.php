@@ -1,3 +1,3 @@
 <header>
-    <div class="logo">Mon todo</div>
+    <a href="/" class="logo">The Blog</a>
 </header>
